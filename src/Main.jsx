@@ -6,7 +6,7 @@ import Comman from './Comman';
 
 const Main = () => {
     const downloadFile = () => {
-        const url = 'https://doc-10-88-docs.googleusercontent.com/docs/securesc/u7bf0s6l594158g94gum9m6u2r819aku/5v99k9u02dm4tq3nc0815lje3upsce8q/1683273225000/12324823812429385842/12324823812429385842/1r-wG0ZaVR_zVadnjiXfC7j-yEg4pfKvw?e=download&ax=ADWCPKB3xqccq1AFgNFr-mSTelv1zQFTmaVZjdmlsV3xNJg2kBuRh4ikGFKn8zMAfkddv05-nef099enW9_H8FKhWtm9nGGl4j7cFRxp0u6aV3L6NY-hEZwdJpvpIJDIC1rWZRKIbH10kzJiECtrdh0g1w1a3wDTqyoSlZ76-ekfR39X-5satc_S8kTB5ccg63ILEdf7fzGS1bwHN5UfYqsjcHmaSnv2s2ggErPzAQjXt6hXxGyHo7nizzup25K6a8UwNuQx59YUpINVjO6kTS5rKPeBAfYieR4Lm8OuOBamJvslMcFdauOgndEpcxP76aIePHL7gTBl7tHHF87BDpulxHphb9fzloXuKD-TRFwboHqO5u3RA5kSn34Q0t1HYwGvw9g9V-b1B8kKGEHDUOOUqgB85bewBMUMzDQIYfaIgtqvcnCdstQTeLmVio3Jcsc-3DRZJVfUZxDsCw9T7qW7s6AWHPvuZdRv7Xf-XGdgiFjyyNgqwP3AZFshMq05sQFOvaTqscaWsK0avzWKK3yMdqfkWCdu0GS-7vTHgyrutihHte27gJgJSbn9TIhasiKLQ3iJWVhAA-1bt9ztBmUe1yeUnac4KrvrCDvqJvmzIk0y792UYkZZoy_E5fRi9n89Dw3UN4ELKXTrEqYIEsqAsOXvBV5Ql6OFuAsnskjLFbNjCs_mj4xJQqh3GKSmkylZfij9hCv1hvZjalbOVn9jyR1NKZ-jEkz7s7lVEDaE8l0Y7x81hzlz-_1RPPArUVCXELl1PCOrwMfOtuMgSiJ1GHjvJSk6qazWGxAnnJFCAFE64BY2M2rKitxvzobnSjq6j4ajA4v3an7TCG7JHn3Rfz8X0Au7ryghGx8rm7pKjFrroz3sc-z4e8f26zCOIN0HElUgsb1Z8a_Jl5IhO0ZRHjFgQ4ey2xCxp9XrmK4jz_r74drjgU3gIu7MsoxbRlJlxQ3FuOKvaFUdOPCXUr7a9Dxrajmy-pZ71qbvmgiuor0&uuid=d7623604-556a-45d8-87d5-173be705f020&authuser=0'; // replace with your file URL
+        const url = 'https://drive.google.com/drive/u/0/folders/1VXAxM7HGtQZTof8nAVzVHDbiAk9SmX7v'; // replace with your file URL
         const link = document.createElement('a');
         link.href = url;
         link.target = '_blank';
