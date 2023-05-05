@@ -8,19 +8,20 @@ import Service from './Service';
 import Contact from './Contact';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import Main from './Main';
 
 const App = () => {
   return(
   <>
-  <Navbar/>
+  {/* <Navbar/> */}
   <Switch>
-  <Route exact path="/" component={Home}/>
+  <Route exact path="/" component={Main}/>
   <Route exact path="/about" component={About}/>
   <Route exact path="/service" component={Service}/>
   <Route exact path="/contact" component={Contact}/>
   <Redirect to="/"/>
   </Switch>
-  <Footer/>
+  {/* <Footer/> */}
   </>);
 }
 
